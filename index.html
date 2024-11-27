@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body style="background-color: gray;">
+    <div class="container">
+        <h1 id="yu">Welcome,To My Quiz App</h1>
+        <button onclick="startQuiz(),bh()" style="display: block;" id="button">Start Quiz</button>
+        <h2 id="question-display"></h2>
+        <div style="display: none;" id="blockk">
+          <label >
+            <input class="cursor" type="radio" name="option" value="0" >
+            <span></span>
+          </label> <br>
+          <label>
+            <input class="cursor" type="radio" name="option" value="1">
+            <span></span>
+          </label> <br>
+          <label>
+            <input class="cursor" type="radio" name="option" value="2">
+            <span></span>
+          </label> <br>
+          <label>
+            <input class="cursor" type="radio" name="option" value="3">
+            <span></span>
+          </label> <br>
+        </div>
+        <button onclick="checkedAnswer()" style="display: none;"  id="butt">Next</button>
+        <div id="nm"></div>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
